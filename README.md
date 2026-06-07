@@ -2,8 +2,6 @@
 
 A Machine Learning web app that predicts whether an object is a Rock or a Mine based on sonar signal data.
 
-## 🚀 Live Demo
-https://sonar-rock-mine-predict-krishma.streamlit.app/
 
 ## 📊 Features
 - Upload CSV file with 60 sonar features
