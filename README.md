@@ -1,21 +1,37 @@
-# Sonar Rock vs Mine Prediction
+# Sonar Rock vs Mine Prediction 🎯
 
-A Machine Learning web app built with Streamlit that predicts whether an object is a Rock or Mine using sonar signal data.
+A Machine Learning web app that predicts whether an object is a Rock or a Mine based on sonar signal data.
 
-## Features
-- Upload CSV file
-- Predict multiple samples
-- Download results
+## 🚀 Live Demo
+https://sonar-rock-mine-predict-krishma.streamlit.app/
 
-## Tech Stack
+## 📊 Features
+- Upload CSV file with 60 sonar features
+- Predict Rock 🪨 or Mine 💣
+- Download prediction results
+- Built with Streamlit
+
+## 🧠 Tech Stack
 - Python
 - Scikit-learn
-- Streamlit
 - Pandas
 - NumPy
+- Streamlit
+- Joblib
 
-## How to run
+## ⚙️ Model
+- Trained on Sonar dataset
+- Classification model (Rock vs Mine)
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+## 📁 How it works
+1. Upload sonar feature dataset
+2. Model processes 60 numerical features
+3. Returns prediction for each row
+
+## 🔥 Future Improvements
+- Add real-time single input prediction
+- Show model confidence scores
+- Add visualization dashboard
+
+## 👨‍💻 Author
+Krishma Adhikari
